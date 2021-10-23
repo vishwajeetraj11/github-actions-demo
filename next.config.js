@@ -1,5 +1,5 @@
 module.exports = {
   reactStrictMode: true,
-  basePath:'/demoX',
-  assetPrefix: '/demoX'
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+  assetPrefix:  process.env.NEXT_PUBLIC_BASE_PATH
 }
